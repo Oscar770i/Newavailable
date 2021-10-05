@@ -1,0 +1,117 @@
+pwd
+
+-Donde me encuentro en mi compu, es la ruta absoluta-
+
+
+clear
+
+-limpiar la terminal-
+
+ls
+
+-Listar carpetas y archivos-
+
+directorio== carpeta
+
+cd
+
+-cambiar directorio-
+
+cd "nombre del directorio"
+
+cd..        
+-regresar una carpeta hacia atrás-
+--------------------
+Clases 2022-I
+cd Clases\ 2022-i
+
+\_==_
+
+mkdir
+-crear una carpeta-
+clear
+mkdir "nombre carpeta"
+mkdir alumnos\ tramites
+
+rmdir
+-eliminar directorios-
+
+rmdir "nombre del directorio"
+
+history
+-muestra todo el historial de comandos usados en la terminal-
+
+
+touch
+-Ayuda a crear un archivo nuevo-
+
+touch nombreArchivo.ext               touch holaMundo.cpp
+
+
+nano
+-Editor de texto en terminal-
+
+nano holamundo.ccp
+
+
+Control + s = Guardar cambios
+Control + x = Salir del archivo
+
+rm
+-eliminar un archivo-
+
+rm nombrearchivo.ccp
+
+cat
+-Contenido de un archivo-
+
+cat holaMundo.cpp
+
+
+
+
+
+
+float base;		// almancena el valor de la base
+	float altura;		// dato de entrada, altura
+	float area;		// resultado del calculo
+
+	printf("Areas\n=====\n");
+
+	// lectura de los datos
+	printf("Base: ");
+	scanf_s("%f", &base);
+
+	printf("Altura: ");
+	scanf_s("%f", &altura);
+
+	// calculo del area
+	area = base * altura;
+
+	//salida de resultados
+	printf("El area de un rectangulo de %f x %f es: %f\n", 
+		base, altura, area);
+
+
+
+
+
+
+#include <stdio.h>
+#include <math.h>
+/* area de un circulo*/
+int main()
+{
+	float radio;
+	float area;
+	float PI = 3.141927;
+	printf("Radio: ");
+	scanf_s("%f", &radio);
+
+	//area = PI * radio * radio;
+	area = PI * pow(radio,2);
+
+	printf("El area es %5.2f ", area);
+	
+
+}
